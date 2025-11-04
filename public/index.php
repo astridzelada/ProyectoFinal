@@ -129,6 +129,59 @@
       margin-top: 40px;
       letter-spacing: 1px;
     }
+
+        /* --- SECCIÓN RELOJ NUEVO DISEÑO --- */
+    .countdown-section {
+      width: 100%;
+      text-align: center;
+      background: linear-gradient(180deg, #437d8dff, #272728ff);
+      color: #001f3f;
+      padding: 80px 20px;
+      margin-top: 60px;
+    }
+        .countdown-section h2 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+      color: #001f3f;
+      letter-spacing: 3px;
+    }
+
+    .countdown {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      font-size: 4rem;
+      font-weight: 700;
+    }
+        .time-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: 120px;
+    }
+
+    .time-value {
+      font-size: 4rem;
+      font-weight: bold;
+      color: #001f3f;
+    }
+        .time-label {
+      font-size: 1rem;
+      text-transform: uppercase;
+      margin-top: 5px;
+      letter-spacing: 2px;
+      color: #003366;
+    }
+
+    .colon {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #001f3f;
+    }
+
   </style>
 </head>
 
@@ -228,7 +281,16 @@
       </div>
     </div>
   </div>
-
+  <!-- SECCIÓN PRÓXIMO PARTIDO Y RELOJ -->
+  <section class="countdown-section">
+    <h2>Próximo Partido</h2>
+    <div id="countdown" class="countdown">
+      <div><span id="days">00</span>Días</div>
+      <div><span id="hours">00</span>Horas</div>
+      <div><span id="minutes">00</span>Min</div>
+      <div><span id="seconds">00</span>Seg</div>
+    </div>
+  </section>
   <!-- LOGOS INFERIORES -->
   <div class="sponsors">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwxWjbiOX8rYuq720FgrIefCPVC-y-gHSUYg&s" alt="Nike">
@@ -242,5 +304,30 @@
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- SCRIPT RELOJ -->
+  <script>
+    const countdownDate = new Date("Nov 20, 2025 00:00:00").getTime();
+
+    const countdownFunction = setInterval(function() {
+      const now = new Date().getTime();
+      const distance = countdownDate - now;
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("days").innerHTML = days;
+      document.getElementById("hours").innerHTML = hours;
+      document.getElementById("minutes").innerHTML = minutes;
+      document.getElementById("seconds").innerHTML = seconds;
+          if (distance < 0) {
+        clearInterval(countdownFunction);
+        document.querySelector(".countdown").innerHTML = "<h3>¡El partido ha comenzado!</h3>";
+      }
+    }, 1000);
+    
+  </script>
 </body>
 </html>
+
