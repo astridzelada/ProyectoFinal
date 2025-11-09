@@ -208,13 +208,13 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav text-end">
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="bi bi-people-fill"></i> Usuarios</a>
+            <a class="nav-link" href="<?= base_url('usuarios') ?>"><i class="bi bi-people-fill"></i> Usuarios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class=""></i> Equipos</a>
+            <a class="nav-link" href="<?= base_url('equipos') ?>"><i class=""></i> Equipos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="bi bi-cash-stack"></i> Pagos</a>
+            <a class="nav-link" href="<?= base_url('pagos') ?>"><i class="bi bi-cash-stack"></i> Pagos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="<?= base_url('eventos') ?>"><i class="bi bi-megaphone-fill"></i> Eventos</a>
