@@ -84,15 +84,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('equipo') ?>">Equipo</a>
+                        <a class="nav-link" href="<?= base_url('equipos') ?>">Equipo</a>
                     </li>
                    
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('usuarios') ?>">Usuarios</a>
                     </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url('eventos') ?>"><i class=""></i> Eventos</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('inicio') ?>"><i class=""></i> Inicio</a>
                     </li>
+                  
                 </ul>
             </div>
         </div>

@@ -16,7 +16,7 @@ $routes->get('eliminar_evento/(:num)','EventosController::eliminarEvento/$1');
 
 
 //Equipo
-$routes->get('equipo', 'EquiposController::index');
+$routes->get('equipos', 'EquiposController::index');
 $routes->post('agregar_equipo','EquiposController::agregarEquipo');
 $routes->get('buscar_equipo/(:num)','EquiposController::buscarEquipo/$1');
 $routes->post('modificar_equipo','EquiposController::modificarEquipo');

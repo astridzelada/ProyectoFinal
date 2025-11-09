@@ -47,7 +47,12 @@
     <div class="container-fluid">
       <a class="navbar-brand fw-bold" href="#">Eventos</a>
       <div class="d-flex">
-        <a href="<?= base_url('inicio'); ?>" class="btn btn-primary">Inicio</a>
+        <a href="<?= base_url('inicio'); ?>" class="btn btn-primary me-2">Inicio</a>
+        <a href="<?= base_url('equipos'); ?>" class="btn btn-primary me-2">Equipos</a>
+        <a href="<?= base_url('pagos'); ?>" class="btn btn-primary me-2">Pagos</a>
+        <a href="<?= base_url('usuarios'); ?>" class="btn btn-primary me-2ss">Usuarios</a>
+        
+        
       </div>
     </div>
   </nav>

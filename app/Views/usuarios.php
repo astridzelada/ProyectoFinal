@@ -203,7 +203,7 @@
                         <a class="nav-link" href="<?= base_url('pagos') ?>"><i class="fas fa-cog me-1"></i> Pagos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('usuarios') ?>"><i class="fas fa-sign-out-alt me-1"></i> Usuarios</a>
+                        <a class="nav-link" href="<?= base_url('eventos') ?>"><i class="fas fa-sign-out-alt me-1"></i> Eventos</a>
                     </li>
                     
                     <li class="nav-item">
