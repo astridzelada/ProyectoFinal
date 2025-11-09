@@ -255,7 +255,7 @@
         <div class="card">
           <img src="https://scontent.fgua3-5.fna.fbcdn.net/v/t39.30808-6/513191205_1027987459319064_3505155038944361280_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=zY6sTu4s-sAQ7kNvwGdVJZG&_nc_oc=AdlpjBfe8xu1F-kpdrTrDU9fIBubeiw2YL3k61tX6egexLc60YxeERNnm2OTjo8ZeiooWE-y9vuyzDvj53H1SemG&_nc_zt=23&_nc_ht=scontent.fgua3-5.fna&_nc_gid=4ThfaeM_QEBwZL14L9MmIQ&oh=00_AfiyPOlOuLuUdAFsbE44gaSoGNLCWqXP6HjsJINlJxt80A&oe=69101C8E" class="card-img-top" alt="Partido 1">
           <div class="card-body text-center">
-            <h5 class="card-title">equipo 6 vs equipo5 </h5>
+            <h5 class="card-title">Aguilas Doradas 6 vs Tiburones Azules </h5>
             <p class="card-text">Domingo 10 de noviembre </p>
           </div>
         </div>
@@ -265,7 +265,7 @@
         <div class="card">
           <img src="https://scontent.fgua3-4.fna.fbcdn.net/v/t39.30808-6/485681019_972863408351512_5981646603310719014_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=TVs549g9kS0Q7kNvwEqrLRb&_nc_oc=AdlIB9kTY-d48Zo0u0sKrEeN4sk2oszIUm6wbXYNnwmoQ0Njjo9wZmXBKnprzGlu_O00kRBsxCxOw7v1rr_M5PNp&_nc_zt=23&_nc_ht=scontent.fgua3-4.fna&_nc_gid=aRB8_y2uiTrCCUaaSY7OQA&oh=00_Afh5c3VKgMoVw_D0S1LNBBRtHY6-DgtG3q9R4rVg84kr6g&oe=69103F63" class="card-img-top" alt="Partido 2">
           <div class="card-body text-center">
-            <h5 class="card-title">equipo 3 vs equipo 4 </h5>
+            <h5 class="card-title">Leones Rojos vs Halcones Negros </h5>
             <p class="card-text">Sábado 16 de noviembre </p>
           </div>
         </div>
@@ -275,7 +275,7 @@
         <div class="card">
           <img src="https://agn.gt/wp-content/uploads/2024/05/Captura-de-pantalla-2024-05-13-124059-750x375.png" class="card-img-top" alt="Partido 3">
           <div class="card-body text-center">
-            <h5 class="card-title">equipo 1 vs equipo 2</h5>
+            <h5 class="card-title">Dragones Escarlata vs Super Campeones</h5>
             <p class="card-text">Viernes 22 de noviembre </p>
           </div>
         </div>
