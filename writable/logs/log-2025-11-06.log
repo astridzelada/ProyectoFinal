@@ -1,0 +1,59 @@
+CRITICAL - 2025-11-06 17:28:19 --> ErrorException: Undefined variable $autores
+[Method: GET, Route: eventos]
+in APPPATH\Controllers\EventosController.php on line 12.
+ 1 APPPATH\Controllers\EventosController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autores', 'C:\\xampppp\\htdocs\\ProyectoFinal\\app\\Controllers\\EventosController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EventosController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventosController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-06 17:50:30 --> ErrorException: Undefined variable $autores
+[Method: GET, Route: eventos]
+in APPPATH\Controllers\EventosController.php on line 12.
+ 1 APPPATH\Controllers\EventosController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autores', 'C:\\xampppp\\htdocs\\ProyectoFinal\\app\\Controllers\\EventosController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EventosController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventosController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-06 17:50:32 --> ErrorException: Undefined variable $autores
+[Method: GET, Route: eventos]
+in APPPATH\Controllers\EventosController.php on line 12.
+ 1 APPPATH\Controllers\EventosController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autores', 'C:\\xampppp\\htdocs\\ProyectoFinal\\app\\Controllers\\EventosController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EventosController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventosController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-06 17:50:42 --> TypeError: mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\User given
+[Method: GET, Route: eventos]
+in SYSTEMPATH\Database\MySQLi\Result.php on line 156.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(156): mysqli_result->fetch_object('App\\Entities\\User')
+ 2 SYSTEMPATH\Database\BaseResult.php(157): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\User')
+ 3 SYSTEMPATH\Database\BaseResult.php(112): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\User')
+ 4 SYSTEMPATH\Model.php(287): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\User')
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\EventosController.php(12): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EventosController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventosController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-06 17:52:29 --> ErrorException: Undefined variable $eventos
+[Method: GET, Route: eventos]
+in APPPATH\Views\eventos.php on line 84.
+ 1 APPPATH\Views\eventos.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventos', 'C:\\xampppp\\htdocs\\ProyectoFinal\\app\\Views\\eventos.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampppp\\htdocs\\ProyectoFinal\\app\\Views\\eventos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('eventos', [], true)
+ 5 APPPATH\Controllers\EventosController.php(13): view('eventos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EventosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventosController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,200 @@
+CRITICAL - 2025-11-09 01:41:28 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: eventos]
+in APPPATH\Controllers\EventosController.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampppp\\htdocs\\ProyectoFinal\\app\\Controllers\\EventosController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EventosController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EventosController')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\EventosController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 01:52:48 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: eventos]
+in APPPATH\Controllers\EventosController.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampppp\\htdocs\\ProyectoFinal\\app\\Controllers\\EventosController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EventosController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EventosController')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\EventosController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 01:55:19 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: eventos]
+in APPPATH\Controllers\EventosController.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampppp\\htdocs\\ProyectoFinal\\app\\Controllers\\EventosController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EventosController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EventosController')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\EventosController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 03:03:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "form_editar_evento.php"
+[Method: GET, Route: buscar_evento/21]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('form_editar_evento.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('form_editar_evento', [], true)
+ 3 APPPATH\Controllers\EventosController.php(45): view('form_editar_evento', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EventosController->buscarEvento('21')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventosController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 03:08:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "form_editar_evento.php"
+[Method: GET, Route: buscar_evento/21]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('form_editar_evento.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('form_editar_evento', [], true)
+ 3 APPPATH\Controllers\EventosController.php(45): view('form_editar_evento', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EventosController->buscarEvento('21')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventosController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-09 03:28:51 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_furiagol`.`eventos_deportivos`, CONSTRAINT `eventos_deportivos_ibfk_2` FOREIGN KEY (`id_equipo_visitante`) REFERENCES `equipos` (`id_equipo`)) in C:\xampppp\htdocs\ProyectoFinal\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampppp\htdocs\ProyectoFinal\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `eventos...', 0)
+#1 C:\xampppp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `eventos...')
+#2 C:\xampppp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `eventos...')
+#3 C:\xampppp\htdocs\ProyectoFinal\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `eventos...', Array, false)
+#4 C:\xampppp\htdocs\ProyectoFinal\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampppp\htdocs\ProyectoFinal\system\BaseModel.php(1025): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampppp\htdocs\ProyectoFinal\system\Model.php(860): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampppp\htdocs\ProyectoFinal\app\Controllers\EventosController.php(67): CodeIgniter\Model->update('1', Array)
+#8 C:\xampppp\htdocs\ProyectoFinal\system\CodeIgniter.php(933): App\Controllers\EventosController->modificarEvento()
+#9 C:\xampppp\htdocs\ProyectoFinal\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventosController))
+#10 C:\xampppp\htdocs\ProyectoFinal\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampppp\htdocs\ProyectoFinal\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampppp\htdocs\ProyectoFinal\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampppp\htdocs\ProyectoFinal\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-11-09 03:28:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_furiagol`.`eventos_deportivos`, CONSTRAINT `eventos_deportivos_ibfk_2` FOREIGN KEY (`id_equipo_visitante`) REFERENCES `equipos` (`id_equipo`))
+[Method: POST, Route: modificar_evento]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `eventos_deportivos` SET `id_evento` = :id_evento:, `tipo_evento` = :tipo_evento:, `id_equipo_local` = :id_equipo_local:, `id_equipo_visitante` = :id_equipo_visitante:, `id_cancha` = :id_cancha:, `fecha` = :fecha:, `hora_inicio` = :hora_inicio:, `hora_fin` = :hora_fin:, `descripcion` = :descripcion:, `resultado_local` = :resultado_local:, `resultado_visitante` = :resultado_visitante:
+WHERE `eventos_deportivos`.`id_evento` IN :eventos_deportivos.id_evento:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1025): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\EventosController.php(67): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EventosController->modificarEvento()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventosController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 03:28:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_furiagol`.`eventos_deportivos`, CONSTRAINT `eventos_deportivos_ibfk_2` FOREIGN KEY (`id_equipo_visitante`) REFERENCES `equipos` (`id_equipo`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `eventos_deportivos` SET `id_evento` = \'1\', `tipo_evento` = \'entrenamiento\', `id_equipo_local` = \'1\', `id_equipo_visitante` = \'\', `id_cancha` = \'Cancha Principal\', `fecha` = \'Cancha Principal\', `hora_inicio` = \'16:00:00\', `hora_fin` = \'18:00:00\', `descripcion` = \'Entrenamiento técnico de fundamentos\', `resultado_local` = \'4\', `resultado_visitante` = \'1\'
+WHERE `eventos_deportivos`.`id_evento` IN (\'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `eventos_deportivos` SET `id_evento` = \'1\', `tipo_evento` = \'entrenamiento\', `id_equipo_local` = \'1\', `id_equipo_visitante` = \'\', `id_cancha` = \'Cancha Principal\', `fecha` = \'Cancha Principal\', `hora_inicio` = \'16:00:00\', `hora_fin` = \'18:00:00\', `descripcion` = \'Entrenamiento técnico de fundamentos\', `resultado_local` = \'4\', `resultado_visitante` = \'1\'
+WHERE `eventos_deportivos`.`id_evento` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `eventos_deportivos` SET `id_evento` = :id_evento:, `tipo_evento` = :tipo_evento:, `id_equipo_local` = :id_equipo_local:, `id_equipo_visitante` = :id_equipo_visitante:, `id_cancha` = :id_cancha:, `fecha` = :fecha:, `hora_inicio` = :hora_inicio:, `hora_fin` = :hora_fin:, `descripcion` = :descripcion:, `resultado_local` = :resultado_local:, `resultado_visitante` = :resultado_visitante:
+WHERE `eventos_deportivos`.`id_evento` IN :eventos_deportivos.id_evento:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1025): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\EventosController.php(67): CodeIgniter\Model->update('1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EventosController->modificarEvento()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventosController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 03:28:51 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_furiagol`.`eventos_deportivos`, CONSTRAINT `eventos_deportivos_ibfk_2` FOREIGN KEY (`id_equipo_visitante`) REFERENCES `equipos` (`id_equipo`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `eventos_deportivos` SET `id_evento` = \'1\', `tipo_evento` = \'entrenamiento\', `id_equipo_local` = \'1\', `id_equipo_visitante` = \'\', `id_cancha` = \'Cancha Principal\', `fecha` = \'Cancha Principal\', `hora_inicio` = \'16:00:00\', `hora_fin` = \'18:00:00\', `descripcion` = \'Entrenamiento técnico de fundamentos\', `resultado_local` = \'4\', `resultado_visitante` = \'1\'
+WHERE `eventos_deportivos`.`id_evento` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `eventos_deportivos` SET `id_evento` = \'1\', `tipo_evento` = \'entrenamiento\', `id_equipo_local` = \'1\', `id_equipo_visitante` = \'\', `id_cancha` = \'Cancha Principal\', `fecha` = \'Cancha Principal\', `hora_inicio` = \'16:00:00\', `hora_fin` = \'18:00:00\', `descripcion` = \'Entrenamiento técnico de fundamentos\', `resultado_local` = \'4\', `resultado_visitante` = \'1\'
+WHERE `eventos_deportivos`.`id_evento` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `eventos_deportivos` SET `id_evento` = \'1\', `tipo_evento` = \'entrenamiento\', `id_equipo_local` = \'1\', `id_equipo_visitante` = \'\', `id_cancha` = \'Cancha Principal\', `fecha` = \'Cancha Principal\', `hora_inicio` = \'16:00:00\', `hora_fin` = \'18:00:00\', `descripcion` = \'Entrenamiento técnico de fundamentos\', `resultado_local` = \'4\', `resultado_visitante` = \'1\'
+WHERE `eventos_deportivos`.`id_evento` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `eventos_deportivos` SET `id_evento` = :id_evento:, `tipo_evento` = :tipo_evento:, `id_equipo_local` = :id_equipo_local:, `id_equipo_visitante` = :id_equipo_visitante:, `id_cancha` = :id_cancha:, `fecha` = :fecha:, `hora_inicio` = :hora_inicio:, `hora_fin` = :hora_fin:, `descripcion` = :descripcion:, `resultado_local` = :resultado_local:, `resultado_visitante` = :resultado_visitante:
+WHERE `eventos_deportivos`.`id_evento` IN :eventos_deportivos.id_evento:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1025): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\EventosController.php(67): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EventosController->modificarEvento()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventosController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-09 03:29:10 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_furiagol`.`eventos_deportivos`, CONSTRAINT `eventos_deportivos_ibfk_2` FOREIGN KEY (`id_equipo_visitante`) REFERENCES `equipos` (`id_equipo`)) in C:\xampppp\htdocs\ProyectoFinal\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampppp\htdocs\ProyectoFinal\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `eventos...', 0)
+#1 C:\xampppp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `eventos...')
+#2 C:\xampppp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `eventos...')
+#3 C:\xampppp\htdocs\ProyectoFinal\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `eventos...', Array, false)
+#4 C:\xampppp\htdocs\ProyectoFinal\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampppp\htdocs\ProyectoFinal\system\BaseModel.php(1025): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampppp\htdocs\ProyectoFinal\system\Model.php(860): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampppp\htdocs\ProyectoFinal\app\Controllers\EventosController.php(67): CodeIgniter\Model->update('1', Array)
+#8 C:\xampppp\htdocs\ProyectoFinal\system\CodeIgniter.php(933): App\Controllers\EventosController->modificarEvento()
+#9 C:\xampppp\htdocs\ProyectoFinal\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventosController))
+#10 C:\xampppp\htdocs\ProyectoFinal\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampppp\htdocs\ProyectoFinal\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampppp\htdocs\ProyectoFinal\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampppp\htdocs\ProyectoFinal\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-11-09 03:29:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_furiagol`.`eventos_deportivos`, CONSTRAINT `eventos_deportivos_ibfk_2` FOREIGN KEY (`id_equipo_visitante`) REFERENCES `equipos` (`id_equipo`))
+[Method: POST, Route: modificar_evento]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `eventos_deportivos` SET `id_evento` = :id_evento:, `tipo_evento` = :tipo_evento:, `id_equipo_local` = :id_equipo_local:, `id_equipo_visitante` = :id_equipo_visitante:, `id_cancha` = :id_cancha:, `fecha` = :fecha:, `hora_inicio` = :hora_inicio:, `hora_fin` = :hora_fin:, `descripcion` = :descripcion:, `resultado_local` = :resultado_local:, `resultado_visitante` = :resultado_visitante:
+WHERE `eventos_deportivos`.`id_evento` IN :eventos_deportivos.id_evento:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1025): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\EventosController.php(67): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EventosController->modificarEvento()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventosController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 03:29:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_furiagol`.`eventos_deportivos`, CONSTRAINT `eventos_deportivos_ibfk_2` FOREIGN KEY (`id_equipo_visitante`) REFERENCES `equipos` (`id_equipo`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `eventos_deportivos` SET `id_evento` = \'1\', `tipo_evento` = \'entrenamiento\', `id_equipo_local` = \'1\', `id_equipo_visitante` = \'\', `id_cancha` = \'Cancha Principal\', `fecha` = \'Cancha Principal\', `hora_inicio` = \'16:00:00\', `hora_fin` = \'18:00:00\', `descripcion` = \'Entrenamiento técnico de fundamentos\', `resultado_local` = \'4\', `resultado_visitante` = \'1\'
+WHERE `eventos_deportivos`.`id_evento` IN (\'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `eventos_deportivos` SET `id_evento` = \'1\', `tipo_evento` = \'entrenamiento\', `id_equipo_local` = \'1\', `id_equipo_visitante` = \'\', `id_cancha` = \'Cancha Principal\', `fecha` = \'Cancha Principal\', `hora_inicio` = \'16:00:00\', `hora_fin` = \'18:00:00\', `descripcion` = \'Entrenamiento técnico de fundamentos\', `resultado_local` = \'4\', `resultado_visitante` = \'1\'
+WHERE `eventos_deportivos`.`id_evento` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `eventos_deportivos` SET `id_evento` = :id_evento:, `tipo_evento` = :tipo_evento:, `id_equipo_local` = :id_equipo_local:, `id_equipo_visitante` = :id_equipo_visitante:, `id_cancha` = :id_cancha:, `fecha` = :fecha:, `hora_inicio` = :hora_inicio:, `hora_fin` = :hora_fin:, `descripcion` = :descripcion:, `resultado_local` = :resultado_local:, `resultado_visitante` = :resultado_visitante:
+WHERE `eventos_deportivos`.`id_evento` IN :eventos_deportivos.id_evento:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1025): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\EventosController.php(67): CodeIgniter\Model->update('1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EventosController->modificarEvento()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventosController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 03:29:10 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_furiagol`.`eventos_deportivos`, CONSTRAINT `eventos_deportivos_ibfk_2` FOREIGN KEY (`id_equipo_visitante`) REFERENCES `equipos` (`id_equipo`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `eventos_deportivos` SET `id_evento` = \'1\', `tipo_evento` = \'entrenamiento\', `id_equipo_local` = \'1\', `id_equipo_visitante` = \'\', `id_cancha` = \'Cancha Principal\', `fecha` = \'Cancha Principal\', `hora_inicio` = \'16:00:00\', `hora_fin` = \'18:00:00\', `descripcion` = \'Entrenamiento técnico de fundamentos\', `resultado_local` = \'4\', `resultado_visitante` = \'1\'
+WHERE `eventos_deportivos`.`id_evento` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `eventos_deportivos` SET `id_evento` = \'1\', `tipo_evento` = \'entrenamiento\', `id_equipo_local` = \'1\', `id_equipo_visitante` = \'\', `id_cancha` = \'Cancha Principal\', `fecha` = \'Cancha Principal\', `hora_inicio` = \'16:00:00\', `hora_fin` = \'18:00:00\', `descripcion` = \'Entrenamiento técnico de fundamentos\', `resultado_local` = \'4\', `resultado_visitante` = \'1\'
+WHERE `eventos_deportivos`.`id_evento` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `eventos_deportivos` SET `id_evento` = \'1\', `tipo_evento` = \'entrenamiento\', `id_equipo_local` = \'1\', `id_equipo_visitante` = \'\', `id_cancha` = \'Cancha Principal\', `fecha` = \'Cancha Principal\', `hora_inicio` = \'16:00:00\', `hora_fin` = \'18:00:00\', `descripcion` = \'Entrenamiento técnico de fundamentos\', `resultado_local` = \'4\', `resultado_visitante` = \'1\'
+WHERE `eventos_deportivos`.`id_evento` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `eventos_deportivos` SET `id_evento` = :id_evento:, `tipo_evento` = :tipo_evento:, `id_equipo_local` = :id_equipo_local:, `id_equipo_visitante` = :id_equipo_visitante:, `id_cancha` = :id_cancha:, `fecha` = :fecha:, `hora_inicio` = :hora_inicio:, `hora_fin` = :hora_fin:, `descripcion` = :descripcion:, `resultado_local` = :resultado_local:, `resultado_visitante` = :resultado_visitante:
+WHERE `eventos_deportivos`.`id_evento` IN :eventos_deportivos.id_evento:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1025): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\EventosController.php(67): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EventosController->modificarEvento()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventosController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
