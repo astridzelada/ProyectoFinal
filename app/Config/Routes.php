@@ -23,7 +23,7 @@ $routes->post('modificar_equipo','EquiposController::modificarEquipo');
 $routes->get('eliminar_equipo/(:num)','EquiposController::eliminarEquipo/$1');
 
 //Pagos
-$routes->get('pago', 'PagosController::index');
+$routes->get('pagos', 'PagosController::index');
 $routes->post('agregar_pago','PagosController::agregarPago');
 $routes->get('buscar_pago/(:num)','PagosController::buscarPagos/$1');
 $routes->post('modificar_pago','PagosController::modificarPagos');
