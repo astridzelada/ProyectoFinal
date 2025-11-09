@@ -19,55 +19,55 @@
 
                 <label for="txt_nombre" class="form-label">Nombre</label>
                 <input type="text" name="txt_nombre" id="txt_nombre" class="form-control"
-                    value="<?php $datos['nombre'];?>">
+                    value="<?=$datos['nombre'];?>">
 
                 <label for="txt_apellido" class="form-label">Apellido</label>
                 <input type="text" name="txt_apellido" id="txt_apellido" class="form-control"
-                    value="<?php $datos['apellido'];?>">
+                    value="<?=$datos['apellido'];?>">
 
                 <label for="txt_fechanac" class="form-label">Fecha Nacimiento</label>
                 <input type="date" name="txt_fechanac" id="txt_fechanac" class="form-control"
-                    value="<? $datos['fecha_nacimiento'];?>">
+                    value="<?=$datos['fecha_nacimiento'];?>">
 
                 <label for="txt_dpi" class="form-label">DPI</label>
                 <input type="number" name="txt_dpi" id="txt_dpi" class="form-control"
-                value="<? $datos['DPI'];?>">
+                value="<?=$datos['DPI'];?>">
 
                 <label for="txt_telefono" class="form-label">Telefono</label>
                 <input type="number" name="txt_telefono" id="txt_telefono" class="form-control"
-                value="<?php $datos['telefono'];?>">
+                value="<?=$datos['telefono'];?>">
 
                 <label for="txt_correo" class="form-label">Correo Electronico</label>
                 <input type="text" name="txt_correo" id="txt_correo" class="form-control"
-                value="<?php $datos['email'];?>">
+                value="<?=$datos['email'];?>">
 
                 <label for="txt_direccion" class="form-label">Direccion</label>
                 <input type="text" name="txt_direccion" id="txt_direccion" class="form-control"
-                value="<?php $datos['direccion'];?>">
+                value="<?=$datos['direccion'];?>">
 
                 <label for="txt_rol" class="form-label">Rol</label>
                 <input type="text" name="txt_rol" id="txt_rol" class="form-control"
-                value="<?php $datos['rol'];?>">
+                value="<?=$datos['rol'];?>">
 
                 <label for="txt_categoria" class="form-label">Categoria</label>
                 <input type="text" name="txt_categoria" id="txt_categoria" class="form-control"
-                value="<?php $datos['categoria'];?>">
+                value="<?=$datos['categoria'];?>">
 
                 <label for="txt_posicion" class="form-label">Posicion</label>
                 <input type="text" name="txt_posicion" id="txt_posicion" class="form-control"
-                value="<?php $datos['posicion'];?>">
+                value="<?=$datos['posicion'];?>">
 
                 <label for="txt_licencia" class="form-label">Licencia</label>
                 <input type="text" name="txt_licencia" id="txt_licencia" class="form-control"
-                value="<?php $datos['licencia'];?>">
+                value="<?=$datos['licencia'];?>">
 
                 <label for="txt_especialidad" class="form-label">Especialidad</label>
                 <input type="text" name="txt_especialidad" id="txt_especialidad" class="form-control"
-                value="<?php $datos['especialidad'];?>">
+                value="<?=$datos['especialidad'];?>">
 
                 <label for="txt_estado" class="form-label">Estado</label>
                 <input type="text" name="txt_estado" id="txt_estado" class="form-control"
-                value="<?php $datos['estado'];?>">
+                value="<?=$datos['estado'];?>">
 
                 <button type="submit" class="form-control btn btn-primary mt-2">
                     Guardar Cambios

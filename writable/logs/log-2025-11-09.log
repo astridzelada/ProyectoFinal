@@ -260,3 +260,18 @@ in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
 12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
 13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-09 05:43:10 --> ErrorException: Undefined array key "fecha"
+[Method: POST, Route: modificar_usuario]
+in APPPATH\Views\usuarios.php on line 289.
+ 1 APPPATH\Views\usuarios.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha"', 'C:\\xampppp\\htdocs\\ProyectoFinal\\app\\Views\\usuarios.php', 289)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampppp\\htdocs\\ProyectoFinal\\app\\Views\\usuarios.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('usuarios', [], true)
+ 5 APPPATH\Controllers\UsuariosController.php(13): view('usuarios', [...])
+ 6 APPPATH\Controllers\UsuariosController.php(70): App\Controllers\UsuariosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuariosController->modificarUsuarios()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

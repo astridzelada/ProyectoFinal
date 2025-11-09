@@ -48,7 +48,7 @@ class PagosController extends BaseController
             'monto'=>$this->request->getPost('txt_monto'),
             'fecha_pago'=>$this->request->getPost('txt_pago'),
             'metodo_pago'=>$this->request->getPost('txt_metodo'),
-            'estado'=>$this->request->getPost('txt_estado'),
+            
             
         ];
 

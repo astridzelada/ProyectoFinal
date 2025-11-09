@@ -273,9 +273,16 @@
                             <th>Apellidos</th>
                             <th>Email</th>
                             <th>Teléfono</th>
+                            <th>fecha_nacimiento</th>
+                            <th>DPI</th>
+                            <th>Email</th>
+                            <th>Direccion</th>
+                            <th>categoria</th>
+                            <th>posicion</th>
+                            <th>licencia</th>
+                            <th>especialidad</th>
                             <th>Rol</th>
                             <th>Estado</th>
-                            <th>Acciones</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -286,6 +293,15 @@
                             <td><?=$usuarios['apellido'];?></td>
                             <td><?=$usuarios['email'];?></td>
                             <td><?=$usuarios['telefono'];?></td>
+                            <td><?=$usuarios['fecha_nacimiento'];?></td>
+                            <td><?=$usuarios['DPI'];?></td>
+                            <td><?=$usuarios['email'];?></td>
+                            <td><?=$usuarios['direccion'];?></td>
+                            <td><?=$usuarios['categoria'];?></td>
+                            <td><?=$usuarios['posicion'];?></td>
+                            <td><?=$usuarios['licencia'];?></td>
+                            <td><?=$usuarios['especialidad'];?></td>
+
                             <td><span class="badge bg-info"><?=$usuarios['rol'];?></span></td>
                             <td>
                                 <?php if($usuarios['estado'] == 'Activo'): ?>
