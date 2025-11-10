@@ -35,3 +35,7 @@ $routes->post('agregar_usuario','UsuariosController::agregarUsuario');
 $routes->get('buscar_usuario/(:num)','UsuariosController::buscarUsuarios/$1');
 $routes->post('modificar_usuario','UsuariosController::modificarUsuarios');
 $routes->get('eliminar_usuario/(:num)','UsuariosController::eliminarUsuarios/$1');
+
+
+//LOGIN
+$routes->post('iniciar_sesion','AdministradorController::index');
